@@ -1,5 +1,3 @@
-package Cinema;
-
 public class Cliente {
      public String nome;
     public String cpf;
@@ -17,5 +15,8 @@ public class Cliente {
 
     public String getNome() {
         return this.nome;
+    }
+    public String getCpf() {
+        return this.cpf;
     }
 }
